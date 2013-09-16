@@ -25,7 +25,7 @@ define(function() {
 
     parseInt : function(num) {
 	  var numToString = num + "";
-      return parseInt(numToString);
+      return parseInt(numToString,10);
     },
 
     identity : function(val1, val2) {
